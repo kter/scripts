@@ -28,3 +28,5 @@ source /etc/profile.d/rbenv.sh
 rbenv install "$RUBY_VERSION"
 rbenv global "$RUBY_VERSION"
 gem install bundle
+
+echo 'To use Ruby, relogin from the shell.'
